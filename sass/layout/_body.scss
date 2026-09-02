@@ -1,58 +1,12 @@
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+body {
+    background-color: black;
+    background-image:
+    url(../../img/ellipse.svg),
+    url(../../img/ellipse.svg);
 
-    width: 100%;
-    height: 80%;
+    background-repeat: no-repeat;
 
-    background: linear-gradient(
-        to right,
-        $background 0%,
-        $background 60%,
-        $light-cyan 60%,
-        $light-cyan 100%
-    );
+    background-size: 1102px, 850px;
 
-    z-index: -1;
-    
-    //background-image: url("/img/beauty-woman-skin-care-beautiful-female-hand-touch-8B5MWG9\ 1.png");
-  //background-repeat: no-repeat;
-  //background-position: center;
-  //background-size: 70%;
-  //z-index: 2;
-}
-
-&::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: -50px;
-
-        width: 100%;
-        height: 100%;
-
-        background-image: url("/img/vector.png");
-        background-repeat: no-repeat;
-        background-position: 900px 100px;
-        background-size: 25%;
-        opacity: 0.1;
-
-        z-index: -1;
-
-    }
-
-.background-image {
-    position: absolute;
-    bottom: 0px;
-    right: 200px;
-
-    width: 1000px;
-    z-index: 0;
-
-    img {
-        width: 115%;
-        display: block;
-    }
+    background-position: bottom right;
 }

@@ -1,13 +1,18 @@
 html {
     font-family: $poppins;
-    padding-top: 33px;
+    max-width: 1920px;
+    box-sizing: border-box;
 }
 
 .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 ul {
     @include reset-list() 
+}
+
+a {
+    @include reset-link()
 }

@@ -1,0 +1,40 @@
+.services{
+    margin-top: 150px;
+    margin-bottom: 117px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    
+    &__item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__content{
+        color: white;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 110px;
+    }
+
+    &__icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 16px;
+        background-color: $grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+}

@@ -5,133 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
  <body>
-  <header class="header">
+   <header class="header">
+      <div class="container">
+        <a class="header__logo" href="#">
+          <img src="./img/GathSession..svg" alt="">
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__item"><a href="#">Home</a></li>
+            <li class="header__item"><a href="#">Features</a></li>
+            <li class="header__item"><a href="#">Blog</a></li>
+            <li class="header__item"><a href="#">Contact</a></li>
+            <li class="header__item"><a href="#">About Us</a></li>
+          </ul>
+        </nav>    
+      </div>
+    </header>
+
+  <main class="main">  
     <div class="container">
+      <div class="hero__format">
+        <div class="left">
+          <section class="hero">
+            <h1 class="hero__title">
+              Build your best community starting from here.
+            </h1>
+            <p class="hero__subtitle">
+              Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way
+            </p>
+            <a href="#" class="hero__button--1">Get started</a>
+            <a href="#" class="hero__button--2">Learn More <img src="./img/Arrow.svg" alt=""></a>
+          </section>
 
-      <a class="header__logo" href="#">
-        <img src="/img/GlowQueen.png" alt="GlowQueen">
-      </a>
+          <section class="services">
+            <article class="services__item">
+              <div class="services__icon">              
+                <img src="./img/comments.svg" alt="">
+              </div>
+              <p class="services__content">
+                Build Community
+              </p>
+            </article>
 
-      <nav class="header__nav">
-        <ul class="header__menu">
-          <li class="header__item">
-            <a href="#">Home</a>
-          </li>
+            <article class="services__item">
+              <div class="services__icon">
+                <img src="./img/calendar.png" alt="">
+              </div>
+              <p class="services__content">
+                Share Events
+              </p>
+            </article>
 
-          <li class="header__item">
-            <a href="#">About</a>
-          </li>
+            <article class="services__item">
+              <div class="services__icon">
+                <img src="./img/information.png" alt="">
+              </div>
+              <p class="services__content">
+                Get Information
+              </p>
+            </article>
+          </section>
+        </div>    
 
-          <li class="header__item">
-            <a href="#">Services</a>
-          </li>
+        <div class="right">
+          <section class="mosaic">
+            <div class="mosaic__design--1">
+              <div class="mosaic__pic mosaic__purple"> 
+                <img src="./img/blackguy_purple.svg" alt=""> 
+              </div> 
+              <div class="mosaic__pic mosaic__pink"> 
+                <img src="./img/redhair.svg" alt=""> 
+              </div>
+            </div>
 
-          <li class="header__item">
-            <a href="#">Facilities</a>
-          </li>
+            <div class="mosaic__design--2">
+              <div class="mosaic__pic mosaic__cyan"> 
+                <img src="./img/asian_blue.svg" alt=""> 
+              </div> 
+              <div class="mosaic__pic mosaic__orange"> 
+                <img src="./img/whiteguy_orange.svg" alt=""> 
+              </div> 
+            </div>
 
-          <li class="header__item dropdown">
-            <a href="#">
-              More
-              <img src="/img/chevron-down.svg" alt="">
-            </a>
-
-            <ul class="dropdown__menu">
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#">Careers</a>
-              </li>
-              <li>
-                <a href="#">Outlet</a>
-              </li>
-              <li>
-                <a href="#">Donations</a>
-              </li>
-            </ul>
-          </li>
-
-        </ul>
-      </nav>
-
-
-      <nav class="header__buttons">
-        <a class="header__buttons--search" href="#">
-          <img src="/img/Search.png" alt="Search">
-        </a>
-
-        <a class="header__buttons--bag" href="#">
-          <img src="/img/Shopping Bag.svg" alt="Shopping bag">
-        </a>
-
-        <a class="header__buttons--signin" href="#">Sign in</a>
-
-        <a class="button-blue" href="#">
-          Sign up
-        </a>
-      </nav>
-
+            <div class="mosaic__pic mosaic__yellow mosaic__design--3"> 
+              <img src="./img/blacklady_yellow.svg" alt=""> 
+            </div> 
+          </section>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <div class="background-image">
-    <img src="/img/beauty-woman-skin-care-beautiful-female-hand-touch-8B5MWG9 1.png" alt="">
-  </div>
-      <main>
-        <div class="hero">
-          <div class="container">
-            <div class="hero__title">
-              <h1>Bring back the beauty and glow of your skin</h1>
-            </div>
-            <div class="hero__subtitle">
-              <p>We provide you various treatments from head to toe using the best product, advanced technology, and  price</p>
-            </div>
-              <div class="hero__buttons">
-                <a href="#" class="button-blue">Book Now</a>
-                <div class="hero__buttons-play"><a href="#"><img src="/img/Play.svg" alt=""></a></div>
-                <p>Watch video</p>
-            </div>
-          </div>
-        </div>
-        <div class="services">
-            <article class="services__item">
-              <img src="/img/grandma.png" alt="">
-              <h3 class="services__number">15+</h3>
-              <p class="services__content">Special Treatment</p>
-            </article>
-
-            <article class="services__item">
-              <img src="/img/flower.png" alt="">
-              <h3 class="services__number">25+</h3>
-              <p class="services__content">Professional Therapist </p>
-            </article>
-
-            <article class="services__item">
-              <img src="/img/pharmacy.png" alt="">
-              <h3 class="services__number">100%</h3>
-              <p class="services__content">Herbal Cream Formula</p>
-            </article>
-        </div>
-
-        
-          <article class="review review--1" >
-            <img src="/img/“.png" alt="">
-            <p class="review__content">I have a regular schedule to take treatment from GlowQueen, they gave me the best service and treatment ever to maintain the beauty and health of my skin</p>
-            <p class="review__name">Sophia Princeton</p>
-          </article>
-      
-
-          <article class="review review--2">
-            <img src="/img/“.png" alt="">
-            <p class="review__content">For the past few years, I've had a hard time finding the right place for skin care to deal with my complicated skin condition, thank God I found GlowQueen to treat my skin</p>
-            <p class="review__name">Tamara Jules</p>
-          </article>
-         
-      </main>
+  </main>
 
     <script type="module" src="/main.js"></script>
   </body>

@@ -1,84 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 650px;
+}
 .header {
-    .container {
+    margin-top: 46px;   
+    margin-bottom: 46px; 
+
+    &__menu{
         display: flex;
-        justify-content: space-between;
+        gap: 48px;
+        justify-content: end;
         align-items: center;
-        font-size: 18px;
     }
-
-    &__logo {
-        img {
-            width: 180px;
-        }
-    }
-
-    &__nav {
+    &__item {
+        position: relative;
+        width: max-content;
         a {
-            text-decoration: none;
-            color: $dark-blue;
-            font-size: 16px;
-        }
-
-    }
-
-    &__menu {
-        @include reset-list;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
-        
-    }
-
-
-    &__buttons {
-        display: flex;
-        align-items: center;
-        font-size: 16px;
-         &--search {
-            margin-right: 32px;
-
-            
-         }
-
-         &--signin {
-            color: $dark-blue;
-            font-family: "Nunito Sans";
-            font-size: 16px;
-            line-height: 40px; 
-            text-underline-offset: auto;
-            margin-left: 64px;
-            margin-right: 32px;
-         }
-
-         &--search {
-            img {
-            width: 25px;
-            }
-}
-         &--bag {
-            img {
-            width: 25px;
+            color: $grey;
+            font-size: 18px;
+            font-weight: normal;
+            font-family: $poppins;
+            &:hover {
+                color: white;
+                &::after {
+                content: "";
+                position: absolute;
+                background-image: url("../../img/Rectangle.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 30px;
+                height: 5px;
+                left: 0%;
+                bottom: -10px;
             }
         }
     }
-
 }
-
-
-.dropdown {
-
-    position: relative;
-
-    &__menu {
-        display: none;
-        position: absolute;
-    }
-
-    &:hover {
-        .dropdown__menu {
-            display: block;
-        }
-    }
-
 }
+    
+
+

@@ -1,0 +1,52 @@
+.hero{
+    &__format{
+        display: flex;
+    }
+
+    &__title{
+        color: white;
+        font-family: $merriweather;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top:100px;
+        width: 730px;
+    }
+
+    &__subtitle{
+        color: $grey;
+        font-family: $poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        width:648px;
+        margin-bottom: 32px;
+    }
+
+    &__button{
+        &--1{
+            color: white;
+            font-size: 18px;
+            font-family: $poppins;
+            border-radius: 16px 16px 16px 0px;
+            background-color: $pink;
+            padding: 16px 69px 17px 68px;
+            margin-right: 40px;
+            box-shadow: 0 24px 50px 0 rgba(0, 0, 0, 0.10);
+        }
+
+        &--2{
+            color: white;
+            font-size: 18px;
+            font-family: $poppins;
+            img {
+                position: relative;
+                bottom: -14px;
+            }
+            
+
+        }
+    }
+}
